@@ -9,7 +9,7 @@
 
 ## Установка проекта на Windows
 0. [Установка git](https://git-scm.com/download/win/)    
-1. [Установить python](https://docs.python.org/3/using/windows.html).    
+1. [Установить python](https://www.python.org/downloads/).    
 2. [Скачать](https://desktop.telegram.org/) portable версию тг.     
 ![telegram](./static/for_readme/image.png)
 3. Настройка рабочей среды.

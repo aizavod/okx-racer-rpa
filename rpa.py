@@ -25,6 +25,6 @@ while True:
         # Кликаем по центру каждой найденной кнопки
         button_center = pyautogui.center(button_location)
         pyautogui.click(button_center)
-        time.sleep(0.01)  # Задержка в 0.01 секунды между кликами
+        time.sleep(random.uniform(0.1, 0.3))  # Задержка в 0.1-0.3 секунды между кликами
     
-    time.sleep(N_SLEEP)  # Подождать 10 секунд перед следующей попыткой
+    time.sleep(N_SLEEP)  # Подождать N_SLEEP секунд перед следующей попыткой

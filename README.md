@@ -20,7 +20,7 @@
 ```
 git clone https://github.com/aizavod/okx-racer-rpa.git
 cd okx-racer-rpa
-python -m venv venv (Если на этом шаге ошибка, то нужно найти полный путь к .exe файлу питона и вставить его вместо `python`)
+python -m venv venv (Если на этом шаге ошибка, то нужно найти полный путь к .exe файлу питона и вставить его вместо `python`), пример: "C:\Program Files\python\python.exe" -m venv venv
 venv\Scripts\activate.bat
 pip install -r requirements.txt
 python rpa.py
